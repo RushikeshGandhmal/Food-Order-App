@@ -35,7 +35,7 @@ const HeaderCartButton = (props) => {
   return (
     <button className={btnclasses} onClick={props.onClick}>
       <span className={classes.icon}>
-        <CartIcon />
+        <CartIcon  />
       </span>
       <span>Your Cart</span>
       <span className={classes.badge}>{numberOfCartItems}</span>
